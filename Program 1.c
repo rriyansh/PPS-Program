@@ -1,10 +1,9 @@
-
-#include <stdio.h>              // header for input/output
-int main() {                    // program entry point
-    int a, b, sum;              // declare 3 integers
-    printf("Enter two numbers: ");   // prompt user
-    scanf("%d %d", &a, &b);     // read both numbers
-    sum = a + b;                // add them
-    printf("Sum = %d\n", sum);  // display result
-    return 0;                   // exit successfully
+#include <stdio.h>                     // include stdio library for printf and scanf
+int main() {                           // main function — program execution starts here
+    int a, b, sum;                     // declare three integer variables a, b and sum
+    printf("Enter two numbers: ");     // display a message asking the user for input
+    scanf("%d %d", &a, &b);            // read two integers from keyboard into a and b
+    sum = a + b;                       // add a and b, store result in sum
+    printf("Sum = %d\n", sum);         // print the sum followed by a newline
+    return 0;                          // return 0 to indicate successful completion
 }
